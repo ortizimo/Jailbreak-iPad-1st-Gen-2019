@@ -71,10 +71,8 @@ this command is used this one time as its a new repository after that you will u
 Additional Notes:
 1. Refresh your repository and do any changes if the format looks off. Also, if you want to add a README file with some comments or instructions you need to type touch README.md then use ATOM to add what you want to say.
 
-2. Any errors shut everything off then redo.
+2. You need to do these steps for each new repository...updating any old repositories only uses the last commands in step #20.
 
-3. You need to do these steps for each new repository...updating any old repositories only uses the last commands in step #20.
+3. After login in you do not need to do it anymore unless you disconnect.
 
-4. After login in you do not need to do it anymore unless you disconnect.
-
-5. If you have any errors shut everything off then restart.
+4. If you have any errors shut down both programs then restart them.
