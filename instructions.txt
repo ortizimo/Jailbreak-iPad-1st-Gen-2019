@@ -47,8 +47,8 @@ this will tell gitgub NOT to push any log files to it...you can add different fi
 15. using ATOM edit your file with the data you want in it...instructions, commands, etc
 
 16. When you’re ready to push (upload) type git add .
-This adds all the files in that subfolder to the queue
-you can also add single files using their format like .html or .txt, etc
+  •	This adds all the files in that subfolder to the queue
+  •	You can also add single files using their format like .html or .txt, etc
 
 17. this next step is done one time as a pre-logon step but when you log out of gitbash and log back in you will have to do it again
   •	git --config user.name ‘your_name’
