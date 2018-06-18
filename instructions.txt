@@ -27,8 +27,9 @@ Not responsible for corrupt or loss of data. Steps have been verified multiple t
 
 7. Go to the github folder in your computer and right click on it...select GitBash from the list and a terminal screen will show...wait a few seconds for it to load
 
-8. Run ATOM and from the menu select the github folder...the folder and subfolders will show up
-close all the initial tabs in ATOM
+8. Run ATOM and from the menu select the github folder...
+  •	the folder and subfolders will show up
+  •	close all the initial tabs in ATOM
 
 9. go to GitBash and use it with Linux commands
   •	cd, ls, rm, mkdir, touch
@@ -40,7 +41,8 @@ close all the initial tabs in ATOM
 12. type touch .gitignore to create the hidden .gitignore file
 
 13. in ATOM double click the .gitignore file and in it type log.txt
-this will tell gitgub NOT to push any log files to it...you can add different file names here for github NOT to receive when you do pushes
+  •	this will tell gitgub NOT to push any log files to it
+  •	you can add different file names here for github NOT to receive when you do pushes
 
 14. type touch <your_file_name> which creates an empty file you are going to work from and push...in my case mine reads instructions.txt
 
@@ -56,7 +58,7 @@ this will tell gitgub NOT to push any log files to it...you can add different fi
 
 18. looking at the initial page in your github account copy and paste into gitbash the command:
   •	git commit -m ‘first commit’
-this commits your queue to upload and adds the comment ‘first commit’ for reference purposes
+  •	this commits your queue to upload and adds the comment ‘first commit’ for reference purposes
 
 19. now copy and paste into gitbash the long command in the repository page which links gitbash to the repository you’re going to push to...a login screen pops up...log in.
 
