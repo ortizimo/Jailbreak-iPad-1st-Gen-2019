@@ -3,26 +3,27 @@ Straightforward Training™
 How to Publish in Github (no branches/single user)
 Author: Saulo S. Ortiz
 Date: 20180604
+Update: 20180618
 ********************************************************
 
 DISCLAIMER:
 Not responsible for corrupt or loss of data. Steps have been verified multiple times.
 
 1. Download the GitBash program
-•	www.git-scm.com
+  •	www.git-scm.com
 
 2. Download the ATOM editor
-•	https://atom.io/
+  •	https://atom.io/
 
 3. Install both programs
 
 4. Create a github account
 
 5. In your computer create a Github folder to work from
-•	create a subfolder for each subject you want
+  •	create a subfolder for each subject you want
 
 6. login to github and create a new repository for the subject you want to push (upload)
-•	an initial instructions page will show up
+  •	an initial instructions page will show up
 
 7. Go to the github folder in your computer and right click on it...select GitBash from the list and a terminal screen will show...wait a few seconds for it to load
 
@@ -30,7 +31,7 @@ Not responsible for corrupt or loss of data. Steps have been verified multiple t
 close all the initial tabs in ATOM
 
 9. go to GitBash and use it with Linux commands
-cd, ls, rm mkdir, etc
+  •	cd, ls, rm, mkdir, touch
 
 10. cd to the first subject you want to work with
 
@@ -50,20 +51,20 @@ This adds all the files in that subfolder to the queue
 you can also add single files using their format like .html or .txt, etc
 
 17. this next step is done one time as a pre-logon step but when you log out of gitbash and log back in you will have to do it again
-git --config user.name ‘your_name’
-git --config user.email ‘your_email’
+  •	git --config user.name ‘your_name’
+  •	git --config user.email ‘your_email’
 
 18. looking at the initial page in your github account copy and paste into gitbash the command:
-git commit -m ‘first commit’
+  •	git commit -m ‘first commit’
 this commits your queue to upload and adds the comment ‘first commit’ for reference purposes
 
 19. now copy and paste into gitbash the long command in the repository page which links gitbash to the repository you’re going to push to...a login screen pops up...log in.
 
 20. now you can use the last command git push -u origin master to upload your content
 this command is used this one time as its a new repository after that you will use the following commands do all your work:
-git add .
-git commit -m ‘your_comment’
-git push
+  •	git add .
+  •	git commit -m ‘your_comment’
+  •	git push
 
 Additional Notes:
 1. Refresh your repository and do any changes if the format looks off. Also, if you want to add a README file with some comments or instructions you need to type touch README.md then use ATOM to add what you want to say.
@@ -71,3 +72,14 @@ Additional Notes:
 2. Any errors shut everything off then redo.
 
 3. You need to do these steps for each new repository...updating only uses the last commands above.
+on the repository you’re going to push to...a login screen pops up...log in.
+
+4. Now you can use the last command git push -u origin master to upload your content
+this command is used this one time as its a new repository after that you will use the following commands do all your work:
+  •	git add .
+  •	git commit -m ‘your_comment’
+  •	git push
+
+5. If you have any errors shut everything off then restart.
+
+6. You need to do these steps for each new repository.
