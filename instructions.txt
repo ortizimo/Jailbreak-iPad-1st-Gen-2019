@@ -3,7 +3,7 @@ Straightforward Training™
 How to Publish in Github (no branches/single user)
 Author: Saulo S. Ortiz
 Date: 20180604
-Update: 20180618
+Update: 20180713
 ********************************************************
 
 DISCLAIMER:
@@ -17,7 +17,7 @@ Not responsible for corrupt or loss of data. Steps have been verified multiple t
 
 3. Install both programs
 
-4. Create a github account
+4. Create a github account in github.com
 
 5. In your computer create a Github folder to work from
   •	create a subfolder for each subject you want
@@ -76,3 +76,21 @@ Additional Notes:
 3. After login in you do not need to do it anymore unless you disconnect.
 
 4. If you have any errors shut down both programs then restart them.
+hem.
+ut everything off then restart.
+w repository.
+and is used this one time as its a new repository after that you will use the following commands do all your work:
+  •	git add .
+  •	git commit -m ‘your_comment’
+  •	git push
+
+6. If you have any errors shut everything off then restart.
+
+7. You need to do these steps for each new repository.
+nds above.
+en use ATOM to add what you want to say.
+
+2. Any errors shut everything off then redo.
+
+3. You need to do these steps for each new repository...updating only uses the last commands above.
+ly uses the last commands above.
