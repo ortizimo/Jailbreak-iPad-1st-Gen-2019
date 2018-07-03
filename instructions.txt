@@ -76,21 +76,12 @@ Additional Notes:
 3. After login in you do not need to do it anymore unless you disconnect.
 
 4. If you have any errors shut down both programs then restart them.
-hem.
-ut everything off then restart.
-w repository.
-and is used this one time as its a new repository after that you will use the following commands do all your work:
+
+5. Once you log into your account through GitBash all you have to do to update old repositories are the commands below unless you create a new one...then you have to do all starting at step 11 above.
   •	git add .
   •	git commit -m ‘your_comment’
   •	git push
 
-6. If you have any errors shut everything off then restart.
+6. If you have any errors or issues shut both programs off then restart them...if that doesn't work then reboot.
 
-7. You need to do these steps for each new repository.
-nds above.
-en use ATOM to add what you want to say.
-
-2. Any errors shut everything off then redo.
-
-3. You need to do these steps for each new repository...updating only uses the last commands above.
-ly uses the last commands above.
+7. You'll need to do these steps for each new repository.
