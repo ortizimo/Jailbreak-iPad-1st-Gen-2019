@@ -72,8 +72,8 @@ links gitbash to the repository you’re going to push to...a login screen pops 
   •	git push -u origin master
     ...this command is used this one time and ONLY for newly created repositories
 
-21. To update old repositories just log into your account using GitBash use Atom to edit then
-use the commands below to update:
+21. To update old repositories just log into your account using GitBash then use Atom to edit
+and lastly use the commands below to update:
   •	git add .
   •	git commit -m ‘your_comment’
   •	git push
