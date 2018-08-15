@@ -3,7 +3,7 @@ Straightforward Training™
 How to Publish in Github (no branches/single user)
 Author: Saulo S. Ortiz
 Date: 20180604
-Update: 20180713
+Update: 201808143
 ********************************************************
 
 DISCLAIMER:
@@ -25,7 +25,8 @@ Not responsible for corrupt or loss of data. Steps have been verified multiple t
 6. login to github and create a new repository for the subject you want to push (upload)
   •	an initial instructions page will show up
 
-7. Go to the github folder in your computer and right click on it...select GitBash from the list and a terminal screen will show...wait a few seconds for it to load
+7. Go to the github folder in your computer and right click on it...select GitBash
+from the list and a terminal screen will show...wait a few seconds for it to load
 
 8. Run ATOM and from the menu select the github folder...
   •	the folder and subfolders will show up
@@ -42,46 +43,54 @@ Not responsible for corrupt or loss of data. Steps have been verified multiple t
 
 13. in ATOM double click the .gitignore file and in it type log.txt
   •	this will tell gitgub NOT to push any log files to it
-  •	you can add different file names here for github NOT to receive when you do pushes
+    ...you can add different file names here for github NOT to receive when you do pushes
 
-14. type touch <your_file_name> which creates an empty file you are going to work from and push...in my case mine reads instructions.txt
+14. type touch <your_file_name> which creates an empty file you are going to work
+from and push...in my case mine reads instructions.txt
 
 15. using ATOM edit your file with the data you want in it...instructions, commands, etc
 
-16. When you’re ready to push (upload) type git add .
-  •	This adds all the files in that subfolder to the queue
-  •	You can also add single files using their format like .html or .txt, etc
+16. When you’re ready to push (upload):
+  •	type git add .
+    ...this adds all the files in that subfolder to the queue
+    ...you can also add single files using their format like .html or .txt, etc
 
-17. this next step is done one time as a pre-logon step but when you log out of gitbash and log back in you will have to do it again
+17. this next step is done one time as a pre-logon step but when you log out of gitbash
+and log back in you will have to do it again
   •	git --config user.name ‘your_name’
   •	git --config user.email ‘your_email’
 
 18. looking at the initial page in your github account copy and paste into gitbash the command:
   •	git commit -m ‘first commit’
-  •	this commits your queue to upload and adds the comment ‘first commit’ for reference purposes
+    ...this commits your queue to upload and adds the comment ‘first commit’ for reference purposes
 
-19. now copy and paste into gitbash the long command in the repository page which links gitbash to the repository you’re going to push to...a login screen pops up...log in.
+19. now copy and paste into gitbash the long command in the repository page which
+links gitbash to the repository you’re going to push to...a login screen pops up...log in.
+  •	git remote add origin...
 
-20. now you can use the last command git push -u origin master to upload your content
-this command is used this one time as its a new repository after that you will use the following commands do all your work:
-  •	git add .
-  •	git commit -m ‘your_comment’
-  •	git push
+20. now you can use the last command to upload your content
+  •	git push -u origin master
+    ...this command is used this one time as its a new repository after that you will use
+
 
 Additional Notes:
-1. Refresh your repository and do any changes if the format looks off. Also, if you want to add a README file with some comments or instructions you need to type touch README.md then use ATOM to add what you want to say.
-
-2. You need to do these steps for each new repository...updating any old repositories only uses the last commands in step #20.
-
-3. After login in you do not need to do it anymore unless you disconnect.
-
-4. If you have any errors shut down both programs then restart them.
-
-5. Once you log into your account through GitBash all you have to do to update old repositories are the commands below unless you create a new one...then you have to do all starting at step 11 above.
+1. Once you log into your account through GitBash all you have to do to update old
+repositories are the commands below unless you create a new one...then you have to
+do all starting at step 11 above.
   •	git add .
   •	git commit -m ‘your_comment’
   •	git push
 
-6. If you have any errors or issues shut both programs off then restart them...if that doesn't work then reboot.
+2. Refresh your repository and do any changes if the format looks off. Also, if you
+want to add a README file with some comments or instructions you need to type touch
+README.md then use ATOM to add what you want to say.
 
-7. You'll need to do these steps for each new repository.
+3. You need to do these steps for each new repository...updating any old repositories
+only uses the last commands in step #1 of the Additional Notes
+
+4. After login in you do not need to do it anymore unless you disconnect
+
+5. If you have any errors shut down both programs then restart them
+
+6. If you have any errors or issues shut both programs off then restart them...if
+that doesn't work then reboot.
