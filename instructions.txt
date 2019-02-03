@@ -3,7 +3,7 @@ Straightforward Training™
 How to Publish in Github (no branches/single user)
 Author: Saulo S. Ortiz
 Date: 20180604
-Update: 201808143
+Update: 20190202
 ********************************************************
 
 DISCLAIMER:
@@ -37,18 +37,19 @@ from the menu list and a terminal screen will show...wait a few seconds for it t
 
 10. cd to the first subject you want to work with
 
-11. type git init to create a hidden folder that github needs
+*11. type git init to create a hidden folder that github needs
 
 12. type touch .gitignore to create the hidden .gitignore file
 
 13. in ATOM double click the .gitignore file and in it type log.txt
   •	this will tell gitgub NOT to push any log files to it
-    ...you can add different file names here for github NOT to receive when you do pushes
+    ...you can add different file types here for github NOT to receive when you do pushes
 
 14. type touch <your_file_name> which creates an empty file you are going to work
 from and push...in my case mine reads instructions.txt
 
-15. using ATOM edit your file with the data you want in it...instructions, commands, etc
+15. using ATOM edit the file you just created and add the data you want in it...
+instructions, commands, etc
 
 16. When you’re ready to push (upload):
   •	type git add .
@@ -64,9 +65,9 @@ and log back in you will have to do it again
   •	git commit -m ‘first commit’
     ...this commits your queue to upload and adds the comment ‘first commit’ for reference purposes
 
-19. now copy and paste into gitbash the long command in the repository page which
-links gitbash to the repository you’re going to push to...a login screen pops up...log in.
-  •	git remote add origin...
+19. now copy and paste into the GitBash terminal screen, the long command in the repository page which
+links GitBash directory to the repository you’re going to push to...a login screen may pos up...log in.
+  •	git remote add origin "https://github.com/ortizimo/My-Case-For-Never-Updating.git"
 
 20. now you can use the last command to upload your content
   •	git push -u origin master
