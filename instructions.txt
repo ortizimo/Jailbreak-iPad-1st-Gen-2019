@@ -1,96 +1,150 @@
-********************************************************
+﻿********************************************************
 Straightforward Training™
-How to Publish in Github (no branches/single user)
+Jailbreaking an iPad First Generation
 Author: Saulo S. Ortiz
-Date: 20180604
-Update: 20190202
+Date: 20120617
+Update: 20190216
 ********************************************************
 
+======================================================================
 DISCLAIMER:
-Not responsible for corrupt or loss of data. Steps have been verified multiple times.
+These steps are for the iOS 5.1.1 and below which is for the iPad first
+generation...DO NOT USE THEM for iOS higher than 5.1.1. Not responsible
+for damage to hardware or loss of data, these steps have been verified.
+======================================================================
 
-1. Download the GitBash program
-  •	www.git-scm.com
+=---=---=---=---==---=---=---=---==---=---=---=---==---=---=---=---=---=
+NOTE: If you already have a newer iTunes version you need to uninstall
+and erase all instances of the program to include Bonjour and any Apple
+application that installs with Itunes...you must also delete any and all
+possible registry keys and hidden folders and any iTunes backups
+=---=---=---=---==---=---=---=---==---=---=---=---==---=---=---=---=---=
 
-2. Download the ATOM editor
-  •	https://atom.io/
+**************************************************************************
+WARNING: MAKE SURE YOU TURN OFF ANY SANDBOX PROGRAMS LIKE TIMEFREEZE OR
+SANDBOXIE TO PREVENT BRICKING THE IPAD
+**************************************************************************
 
-3. Install both programs
+This is a oldie but goodie. I originally jailbroke my iPad 1st generation
+back  in 2011-2012 and since then have upgraded and also lost interest in
+Apple products, but I have tons of .ipa games I've downloaded and wanted to
+play again, so I got a nice MINT condition iPad 1 Gen on ebay and looked
+through all my backups for the files needed. Below is the easy 2019 steps
+for you to jailbreak the iOS 5.1.1. in case you wanted to do the same.
 
-4. Create a github account in github.com
+**************************************************************************
+WARNING: AVOID LOOPING OR BRICKING
+**************************************************************************
+To prevent a loop or bricking situation (as I did when testing these steps)
+DO NOT install any iPod packages to the iPad like programs that enhance iPod
+games/apps to be used in the iPad screen. Also, make sure that NOTHING will
+stop the jailbraking process or that your computer will crash when doing any
+of the steps here or you'll end up with a +4hour frustration.
 
-5. In your computer create a Github folder to work from
-  •	create a subfolder for each subject you want
+If you do then try the following:
 
-6. login to github and create a new repository for the subject you want to push (upload)
-  •	an initial instructions page will show up
-
-7. Go to the github folder in your computer and right click on it...select GitBash
-from the menu list and a terminal screen will show...wait a few seconds for it to load
-
-8. Run ATOM and from the menu select the github folder...
-  •	the folder and subfolders will show up
-  •	close all the initial tabs in ATOM
-
-9. go to GitBash and use it using Linux commands
-  •	cd, ls, rm, mkdir, touch, <up-cursor>
-
-10. cd to the first subject you want to work with
-
-*11. type git init to create a hidden folder that github needs
-
-12. type touch .gitignore to create the hidden .gitignore file
-
-13. in ATOM double click the .gitignore file and in it type log.txt
-  •	this will tell gitgub NOT to push any log files to it
-    ...you can add different file types here for github NOT to receive when you do pushes
-
-14. type touch <your_file_name> which creates an empty file you are going to work
-from and push...in my case mine reads instructions.txt
-
-15. using ATOM edit the file you just created and add the data you want in it...
-instructions, commands, etc
-
-16. When you’re ready to push (upload):
-  •	type git add .
-    ...this adds all the files in that subfolder to the queue
-    ...you can also add single files using their format like .html or .txt, etc
-
-17. this next step is done one time as a pre-logon step but when you log out of gitbash
-and log back in you will have to do it again
-  •	git --config user.name ‘your_name’
-  •	git --config user.email ‘your_email’
-
-18. looking at the initial page in your github account copy and paste into gitbash the command:
-  •	git commit -m ‘first commit’
-    ...this commits your queue to upload and adds the comment ‘first commit’ for reference purposes
-
-19. now copy and paste into the GitBash terminal screen, the long command in the repository page which
-links GitBash directory to the repository you’re going to push to...a login screen may pos up...log in.
-  •	git remote add origin "https://github.com/ortizimo/My-Case-For-Never-Updating.git"
-
-20. now you can use the last command to upload your content
-  •	git push -u origin master
-    ...this command is used this one time and ONLY for newly created repositories
-
-21. To update old repositories just log into your account using GitBash then use Atom to edit
-and lastly use the commands below to update:
-  •	git add .
-  •	git commit -m ‘your_comment’
-  •	git push
+- If brick or looped...run redsn0w 0.9.10b3/6 or10 9as admin but DO NOT set
+  into DFU mode...just start it but don't do anything else
+- Turn off the iPad then connect to PC on USB 2.0 not USB 3.0 or viceversa
+  to make iTunes recognize it
+- Let it download restore update through iTunes
+- If fail turn off itunes then restart and go to ipda > restore and let it finish
 
 
-Additional Notes:
-1. Refresh your repository and do any changes if the format looks off. Also, if you
-want to add a README file with some comments or instructions you need to type touch
-README.md then use ATOM to add what you want to say.
 
-2. You need to do these steps for each new repository...updating any old repositories
-only uses the last commands in step #1 of the Additional Notes
+STEP #1: Downloads
+===========================================================================
+1. Download:
+	· Absinthe-win 2.0.4...scan for viruses!
+	· Install iTunes...it doesn't matter if its the latest iTunes
+	· Cydia Impactor...scan for viruses!
+	· iTunes 11 (64bit...89MB)
 
-3. After login in you do not need to do it anymore unless you disconnect
+2. Unzip Absinthe to the Desktop and run the program...a cmd prompt will
+show and a folder with the same name is now created
 
-4. If you have any errors shut down both programs then restart them
+3. Connect the iPad then run the .exe in Absinthe...let it finish and
+DO NOT TOUCH IT!
 
-5. If you have any errors or issues shut both programs off then restart them...if
-that doesn't work then reboot.
+4. When done, slide the screen to the left and find CYDIA...move it
+to the main screen if you want to
+
+
+STEP #2: Sources (optional)
+===========================================================================
+1. Make sure the iPad is connected to your router and run CYDIA
+
+2. When asked only update the ESSENTIALS
+
+3. Select SOURCES > EDIT and delete repor666.ultrasn0w.com
+
+4. While in SOURCES, add any of the following (ignore the errors):
+
+	· cydia.iphonecake.com
+	· repo.biteyourapple.net
+	· repo.hackyouriphone.org
+	· sinfuliphonerepo.com
+	· us.hackulo.resources
+	· com.hackulo.us.sourcegui
+	· repo.midyouri.com
+
+=---=---=---=---==---=---=---=---==---=---=---=---==---=---=---=---=---=
+NOTE: All these add thousands of programs, customizations and games...NOT
+ALL NEED TO BE INSTALLED
+=---=---=---=---==---=---=---=---==---=---=---=---==---=---=---=---=---=
+
+5. Get out of CYDIA and go back in
+
+6. Go to Changes and update all programs if asked
+
+
+STEP#3: Install Cydia Packages (optional)
+===========================================================================
+
+**************************************************************************
+WARNING: Read any warnings that may come up on screen...if it asks you to
+purchase, look for the next available link
+**************************************************************************
+
+1. In CYDIA go to SEARCH and search for the following (reboot at after every
+new addition:
+
+	· iCleaner
+	· Cydelete
+	· appsync unified 31.1
+	· activator (installed with SBSettings)
+	· applist
+	· ikeywi
+	· wififofum
+	· wraparound
+
+2. You can select themes, mods, games and more by going to CYDIA > CHANGES
+
+
+STEP#4: Install .ipa Apps and Games
+===========================================================================
+1. Connect the iPad and let it open in iTunes
+
+2. Click on the BLUE start button...this is done only for the first time
+
+3. Do not click on the iPad icon on the top right corner YET
+
+4. Click and Drag your .ipa files tot he iTunes screen
+
+5. Click on the iPad icon
+
+6. Click on the Apps icon on the top menu
+
+7. Select game or app and click Install
+
+8. Click APPLY at the button...AUTOSYNC may be select automatically
+
+9. Click DONE on the right upper corner and check iPad
+
+10. Repeat
+
+=---=---=---=---==---=---=---=---==---=---=---=---==---=---=---=---=---=
+NOTE: All these add thousands of programs, customizations and games...NOT
+ALL NEED TO BE INSTALLED
+=---=---=---=---==---=---=---=---==---=---=---=---==---=---=---=---=---=
++--+--+--+--+--+
