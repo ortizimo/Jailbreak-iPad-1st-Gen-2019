@@ -3,7 +3,7 @@ Straightforward Training™
 Jailbreaking an iPad First Generation
 Author: Saulo S. Ortiz
 Date: 20120617
-Update: 20190216
+Update: 20190224
 ********************************************************
 
 ======================================================================
@@ -48,8 +48,8 @@ If you do then try the following:
 - Turn off the iPad then connect to PC on USB 2.0 not USB 3.0 or viceversa
   to make iTunes recognize it
 - Let it download restore update through iTunes
-- If fail turn off itunes then restart and go to ipda > restore and let it finish
-
+- If fail turn off iTunes then restart and go to ipda > restore and let it
+finish
 
 
 STEP #1: Downloads
@@ -147,4 +147,3 @@ STEP#4: Install .ipa Apps and Games
 NOTE: All these add thousands of programs, customizations and games...NOT
 ALL NEED TO BE INSTALLED
 =---=---=---=---==---=---=---=---==---=---=---=---==---=---=---=---=---=
-+--+--+--+--+--+
