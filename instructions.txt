@@ -1,22 +1,22 @@
 ﻿********************************************************
 Straightforward Training™
-Jailbreaking an iPad First Generation
+Jailbreaking an iPad First Generation (rev.2019)
 Author: Saulo S. Ortiz
 Date: 20120617
-Update: 20190224
+Update: 20190302
 ********************************************************
 
-======================================================================
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 DISCLAIMER:
 These steps are for the iOS 5.1.1 and below which is for the iPad first
-generation...DO NOT USE THEM for iOS higher than 5.1.1. Not responsible
+generation...DO NOT USE for iOS higher than 5.1.1. Not responsible
 for damage to hardware or loss of data, these steps have been verified.
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 
-I do not know until when these versions of the programs in this guide
-will remain available. It's been 8+ years since they came out and some
-no longer work with this iOS version.
-======================================================================
-
+---------------------------------------------------------------------------
+*NOTE: I do not know until when these versions of the programs in this guide
+will remain available. It's been 8+ years since they came out and some no
+longer work with this iOS version.
 ---------------------------------------------------------------------------
 *NOTE: If you already have a newer iTunes version you need to uninstall
 and erase all instances of the program to include Bonjour and any Apple
@@ -29,8 +29,9 @@ WARNING: MAKE SURE YOU TURN OFF ANY SANDBOX PROGRAMS LIKE TIMEFREEZE OR
 SANDBOXIE TO PREVENT BRICKING THE IPAD
 **************************************************************************
 
+Intro:
 This is a oldie but goodie. I originally jailbroke my iPad 1st generation
-back  in 2011-2012 and since then have upgraded and also lost interest in
+back in 2011-2012 and since then have upgraded and also lost interest in
 Apple products, but I have tons of .ipa games I've downloaded and wanted to
 play again, so I got a nice MINT condition iPad 1 Gen on ebay and looked
 through all my backups for the files needed. Below is the easy 2019 steps
@@ -41,27 +42,32 @@ WARNING: AVOID LOOPING OR BRICKING
 **************************************************************************
 To prevent a loop or bricking situation (as I did when testing these steps)
 DO NOT install any iPod packages to the iPad like programs that enhance iPod
-games/apps to be used in the iPad screen. Also, make sure that NOTHING will
+games/apps to be used in full iPad screen. Also, make sure that NOTHING will
 stop the jailbraking process or that your computer will crash when doing any
-of the steps here or you'll end up with a +4hour frustration.
+of the steps here or you'll end up with a 4+hour frustration.
 
-If you do then try the following:
+If you did then try the following:
 
-- If brick or looped...run redsn0w 0.9.10b3/6 or10 9as admin but DO NOT set
-  into DFU mode...just start it but don't do anything else
-- Turn off the iPad then connect to PC on USB 2.0 not USB 3.0 or viceversa
-  to make iTunes recognize it
-- Let it download restore update through iTunes
-- If fail turn off iTunes then restart and go to ipda > restore and let it
-finish
+If brick or looped:
+  -Run redsn0w 0.9.10b3/6 or 10 as admin but DO NOT set into DFU mode...just
+   start it but don't do anything else
+
+  -Turn off the iPad then connect to PC on USB 2.0 not USB 3.0 or viceversa
+   to make iTunes recognize it
+
+  -Let it download the restore update through iTunes...DO NOT LET iTunes
+   update
+
+  -If this fails, turn off iTunes then restart and go to ipda > restore and 
+   let it finish
 
 
 STEP #1: Downloads
-===========================================================================
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 1. Download:
 	· Absinthe-win 2.0.4...scan for viruses!
 	· iTunes 11 (64bit...89MB)
-	· Cydia Impactor...scan for viruses!
+	· redsn0w 0.9.10b3 (for emergency)
 
 2. Unzip Absinthe to the Desktop and run the program...a cmd prompt will
 show and a folder with the same name is now created
@@ -74,14 +80,16 @@ to the main screen if you want to
 
 
 STEP #2: Sources (optional)
-===========================================================================
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 1. Make sure the iPad is connected to your router and run CYDIA
 
-2. When asked only update the ESSENTIALS
+2. Select USER when asked
 
-3. Select SOURCES > EDIT and delete repor666.ultrasn0w.com
+3. When asked only update the ESSENTIALS
 
-4. While in SOURCES, add any of the following (ignore the errors):
+4. Select SOURCES > EDIT and delete repor666.ultrasn0w.com
+
+5. While in SOURCES, add any of the following (ignore the errors):
 
 	· cydia.iphonecake.com
 	· repo.biteyourapple.net
@@ -102,7 +110,7 @@ ALL NEED TO BE INSTALLED
 
 
 STEP#3: Install Cydia Packages (optional)
-===========================================================================
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 
 **************************************************************************
 WARNING: Read any warnings that may come up on screen...if it asks you to
@@ -113,26 +121,39 @@ purchase, look for the next available link
 new addition:
 
 	· iCleaner 7.7.1
-	· Cydelete
-	· AppSync Unified 31.1
-	· MultiIcon Mover+
-	· **SSH (ssh root@<ip_addr> pass: alpine)
-	· **ToggleSSH (Enable first before you SSH)
+	
+	· Cydelete 2.0.5-1
+
+	· AppSync Unified 31.1 or 32
+		··without this app syncing games/apps in iTunes will not work!!!
+
+	· MultiIcon Mover+ 
+		··(BigBoss)
+
+	· **SSH Connect 1.3-3 
+		··(ssh root@<ip_addr> pass: alpine)
+
+	· **ToggleSSH 
+		··(optional icon to SSH settings)
+
 	· **SBSettings
 
 ---------------------------------------------------------------------------
-*NOTE: Do ynot install if it asks you to purchase it
+*NOTE: Do not install if it asks you to purchase it
 ---------------------------------------------------------------------------
-**Optional
-SBSettings: To view swipe your finger from left to right on the top left 
-corner of the screen
+**Optional: SBSettings...To view swipe your finger from left to right on 
+the top left corner of the screen
 ---------------------------------------------------------------------------
 
 2. You can select themes, mods, games and more by going to CYDIA > CHANGES
 
+**************************************************************************
+WARNING: Not everything you can get from Cydia is compatible with iOS 5.1.1
+**************************************************************************
+
 
 STEP#4: Install .ipa Apps and Games
-===========================================================================
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 1. Connect the iPad and let it open in iTunes
 
 2. Click on the BLUE start button...this is done only for the first time
@@ -152,8 +173,3 @@ STEP#4: Install .ipa Apps and Games
 9. Click DONE on the right upper corner and check iPad
 
 10. Repeat
-
----------------------------------------------------------------------------
-*NOTE: All these add thousands of programs, customizations and games...NOT 
-ALL NEED TO BE INSTALLED
----------------------------------------------------------------------------
