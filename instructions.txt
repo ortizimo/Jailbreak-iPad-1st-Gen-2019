@@ -35,7 +35,8 @@ back in 2011-2012 and since then have upgraded and also lost interest in
 Apple products, but I have tons of .ipa games I've downloaded and wanted to
 play again, so I got a nice MINT condition iPad 1 Gen on ebay and looked
 through all my backups for the files needed. Below is the easy 2019 steps
-for you to jailbreak the iOS 5.1.1. in case you wanted to do the same.
+for you to jailbreak the iOS 5.1.1. in case you wanted to do the same. For
+more fixes look at the end of this guide.
 
 **************************************************************************
 WARNING: AVOID LOOPING OR BRICKING
@@ -95,7 +96,6 @@ STEP #2: Sources (optional)
 	· repo.biteyourapple.net
 	· repo.hackyouriphone.org
 	· sinfuliphonerepo.com
-	· us.hackulo.resources
 	· com.hackulo.us.sourcegui
 	· repo.midyouri.com
 
@@ -138,6 +138,9 @@ new addition:
 
 	· **SBSettings
 
+	· **iFile Cracked
+		··Needs sinfuliphonerepo.com
+
 ---------------------------------------------------------------------------
 *NOTE: Do not install if it asks you to purchase it
 ---------------------------------------------------------------------------
@@ -173,3 +176,16 @@ STEP#4: Install .ipa Apps and Games
 9. Click DONE on the right upper corner and check iPad
 
 10. Repeat
+
+
+DFU Loop Fix
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+
+1. Try using iTunes to Restore/Update...don't worry it can't update beyond 
+   5.1.1
+
+2. Do NOT update iTunes!!!
+
+3. If it fails the first time try iTunes Restore again
+
+4. Use greensn0w again
