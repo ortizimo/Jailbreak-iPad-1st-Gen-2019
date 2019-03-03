@@ -20,7 +20,7 @@ longer work with this iOS version.
 ---------------------------------------------------------------------------
 *NOTE: If you already have a newer iTunes version you need to uninstall
 and erase all instances of the program to include Bonjour and any Apple
-application that installs with Itunes...you must also delete any and all
+applications that install with iTunes...you must also delete any and all
 possible registry keys and hidden folders and any iTunes backups
 ---------------------------------------------------------------------------
 
@@ -41,26 +41,14 @@ more fixes look at the end of this guide.
 **************************************************************************
 WARNING: AVOID LOOPING OR BRICKING
 **************************************************************************
+
 To prevent a loop or bricking situation (as I did when testing these steps)
 DO NOT install any iPod packages to the iPad like programs that enhance iPod
 games/apps to be used in full iPad screen. Also, make sure that NOTHING will
 stop the jailbraking process or that your computer will crash when doing any
 of the steps here or you'll end up with a 4+hour frustration.
 
-If you did then try the following:
-
-If brick or looped:
-  -Run redsn0w 0.9.10b3/6 or 10 as admin but DO NOT set into DFU mode...just
-   start it but don't do anything else
-
-  -Turn off the iPad then connect to PC on USB 2.0 not USB 3.0 or viceversa
-   to make iTunes recognize it
-
-  -Let it download the restore update through iTunes...DO NOT LET iTunes
-   update
-
-  -If this fails, turn off iTunes then restart and go to ipda > restore and 
-   let it finish
+For more Fixes, look at the end of this guide.
 
 
 STEP #1: Downloads
@@ -96,8 +84,6 @@ STEP #2: Sources (optional)
 	· repo.biteyourapple.net
 	· repo.hackyouriphone.org
 	· sinfuliphonerepo.com
-	· com.hackulo.us.sourcegui
-	· repo.midyouri.com
 
 ---------------------------------------------------------------------------
 *NOTE: All these add thousands of programs, customizations and games...NOT
@@ -181,7 +167,7 @@ STEP#4: Install .ipa Apps and Games
 DFU Loop Fix
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 
-1. Try using iTunes to Restore/Update...don't worry it can't update beyond 
+1. Try using iTunes to Restore/Update...don't worry, it can't update beyond 
    5.1.1
 
 2. Do NOT update iTunes!!!
@@ -189,3 +175,17 @@ DFU Loop Fix
 3. If it fails the first time try iTunes Restore again
 
 4. Use greensn0w again
+
+Apple Loop Fix
+≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+1. Run redsn0w 0.9.10b3/6 or 10 as admin but DO NOT set into DFU mode...just
+   start it but don't do anything else
+
+2. Turn off the iPad then connect to PC on USB 2.0 not USB 3.0 or viceversa
+   to make iTunes recognize it
+
+3. Let it download the restore update through iTunes...DO NOT LET iTunes
+   update
+
+4. If this fails, turn off iTunes then restart and go to ipda > restore and 
+   let it finish
